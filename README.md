@@ -1,16 +1,14 @@
-# internet_check_widget
+# internet_check widget
 
-A new Flutter project.
+Here I am continuouslly Listning internet available or not Ping the server if interet on and working or  not
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Wrapping the root widget with custom InternetConnectivity Widget so it will show ontime
+internet changes 
 
-A few resources to get you started if this is your first Flutter project:
+1. in pubspec.yml 
+   add this dependecies connectivity_plus 
+   using flutter pub get connectivity_plus and ENTER 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
